@@ -197,14 +197,20 @@ Slides available on [Speakerdeck](https://speakerdeck.com/u/methodmissing/p/zero
 * Colored diagrams, colorized source code
 * Internet meme pictures (yay!)
 
-### Off the tracks, [Nick Sutterer](url)
+### Off the tracks, [Nick Sutterer](https://twitter.com/apotonick)
 
 #### Topics
 
-* 
+* *Off the tracks literally: Nick begins his talk with telling a story and Elton John in the back*
+* Nick wants more object orientation in Rails
+* Example: A model with having a send_sms method in the user model
+* **"Fat model, skinny controller"**
+* *I think the morale is: Don't be afraid of making use of more classes, right? Right.*
+* *Pretty lengthy example. Unable to follow since the talk's pretty weird, I'm sorry.*
 
 #### Techniques
 
-* 
+* Music, campfire on screen
+* Mostly Google Image search images
 
 ### next_talk, [next_speaker](url)
