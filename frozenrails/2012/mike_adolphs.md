@@ -1,6 +1,6 @@
 # Frozenrails
 
-## 2012-09-19
+## 2012-09-20
 
 ### *What is a developer?* - [Jeff Casimir](https://twitter.com/j3), [Jumpstart Lab](http://jumpstartlab.com/)
 
@@ -50,7 +50,7 @@
 
 * no images, only text
 * two rows, two colors
-* Is this Comic Sans? No, but pretty close…
+* *is this Comic Sans? No, but pretty close…*
 
 ### *Mind your metaphors* - [Amanda Wagener](https://twitter.com/a_wagener)
 
@@ -81,7 +81,7 @@
 #### Topics
 
 * Why?
-  * Because even in 2012 it's still to expensive to maintain integration points
+  * Because even in 2012 it's still too expensive to maintain integration points
 * Socket I/O problems:
   * Strong developer profile required
   * Lack of portability
@@ -99,3 +99,65 @@
 
 * Mostly text, lots of diagrams
 * No colorized source code
+
+### *Designing Hypermedia APIs*, [Steve Klabnik](https://twitter.com/steveklabnik)
+
+#### Topics
+
+* Most people think short-term
+* Flexibility and stability needs to be balanced the right way
+* Adapters
+  * fog as middleware
+* **Something's coupled when it breaks if you change it**
+* Solution: **Radical decoupling**
+  * Media type as the backbone of decoupling
+  * *Example with microblogging JSON*
+* **REST Fans call this 'independent evolution'**
+* Server and client software can evolve apart from the media type
+* Examples:
+  * GitHub pagination `"rel":"next"`
+  * ID->URI
+* More information on [Designing Hypermedia APIs](http://designinghypermediaapis.com)
+
+#### Techniques
+
+* Header/Content separation
+* Couple diagrams, almost no colorized code
+* Pretty neat though
+
+### *Fighting code smells* - Ruby code analysis tools, [Dennis Ushakov](http://twitter.com/en_Dal)
+
+#### Topics
+
+* **Pareto principle** (20% new code, 80% modifications)
+* Code that smells:
+  * Runtime errors/warnings
+  * Dead code
+  * Copy/paste'd code
+  * Complex method bodies
+  * Code style violations
+  * Framework pattern violations
+* Code quality tools:
+  * Static tools
+    * inspect code without launching
+    * 100% no side effects, but hard to implement and not Rails compliant
+    * Existing tools: Reek, flog, flay, Roodi, metrics_fu
+    * Metrics foo provides aggregate resulrs for flay, flog, reek, roodi
+  * Runtime tools
+    * Inspect code by launching
+    * Cope well with DSL magic
+    * may have side effects
+    * Existing tools:
+      * Code testing:
+        * Test::Unit
+        * rspec/Cucumber
+      * Code coverage
+        * rcov, simplecov
+        * heckle
+        * RubyMine
+* Morale: **Use static analysis tools, test and try RubyMine**
+
+#### Techniques
+
+* *The usual suspects* **and CAT CONTENT (only on last slide though)!**
+
