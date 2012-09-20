@@ -241,6 +241,8 @@ Slides available on [Speakerdeck](https://speakerdeck.com/u/methodmissing/p/zero
 
 ### Deploy, scale and sleep at night with JRuby, [Joe Kutner](https://twitter.com/codefinger)
 
+Slides on [Slideshare](http://www.slideshare.net/jkutner/deploy-scale-and-sleep-at-night-with-jruby)
+
 #### Topics
 
 * *He's the writer of 'Deploying with JRuby'*
