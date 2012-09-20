@@ -77,6 +77,7 @@
 * Images, full screen
 
 ### *ZeroMQ: Scriptable sockets* - [Lourens Naude](https://twitter.com/methodmissing)
+Slides available on [Speakerdeck](https://speakerdeck.com/u/methodmissing/p/zeromq-sockets-on-steroids-1)
 
 #### Topics
 
@@ -161,3 +162,49 @@
 
 * *The usual suspects* **and CAT CONTENT (only on last slide though)!**
 
+### The tale of a server infrastructure, [Ville Lautanala](http://twitter.com/lautis)
+
+#### Topics
+
+* *quiet guy, can hardly understand what's going on*
+* Explaining server infrastructure issues by example of [flowdock](https://flowdock.com/)
+* *showing off various application layer diagrams of how their infrastructure evolved*
+* Chef at Flowdock:
+  * Used for:
+    * Firewall
+    * User setup/SSH key roll-out
+    * *and more*
+  * *couple knife command examples*
+  * Testing chef recipes
+    * Use environments to isolate changes
+    * use temporary VMs
+    * cucumber-chef gem
+    * *no information about [test-kitchen](http://github.com/opscode/test-kitchen)? :(*
+* Zookeeper is being used for distributed coordination
+  * eg. for **redis failover**
+* Chef vs. Zookeeper
+  * Chef is for bootstrapping and configuration files
+  * Zookeeper for automatic failover
+* Mesh-based VPN between boxes
+* SSL endpoints in AWS
+* Learnings
+  * Make it crash when someone's there to fix it
+  * *and probably more, but I wasn't able to understand what he's saying :(*
+
+#### Techniques
+
+* Simple background, few words
+* Colored diagrams, colorized source code
+* Internet meme pictures (yay!)
+
+### Off the tracks, [Nick Sutterer](url)
+
+#### Topics
+
+* 
+
+#### Techniques
+
+* 
+
+### next_talk, [next_speaker](url)
