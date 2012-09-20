@@ -213,4 +213,80 @@ Slides available on [Speakerdeck](https://speakerdeck.com/u/methodmissing/p/zero
 * Music, campfire on screen
 * Mostly Google Image search images
 
-### next_talk, [next_speaker](url)
+### Post-Rails? Composable apps with a first-class API, [Brandur Leach](https://brandur.org)
+
+#### Topics
+
+* Keep your core application small and agile
+* `BUTC` (Break up the core) is a learning from Salesforce splitting their Perl monolith into smaller pieces
+* Split huge rails apps into smaller ones
+* Let them talk via APIs to each other
+* Examples from Heroku
+  * Dashboard
+  * Manager (Manager Web -> Manager API -> Core API)
+* Take care of reusability
+* **A good API is a reusable API**
+* Favour Service Orientied Architecture (SOA) to ease the scaling pain
+* APIs are important at least as the corresponding web application
+* Benefits
+  * More people are able to maintain different parts of the platform
+  * Maintenance is easier, implementation of new features as well (Increasing happiness)
+* **Lessons learned:**
+  * Testing becomes harder, more stubs needed
+  * Yehuda Katz's [artifice](http://rubygems.org/gems/artifice) or [excon-artifice](http://rubygems.org/gems/artifice-excon) for routing requests to a Rack application
+
+#### Techniques
+
+* First `impress.js` talk this year :)
+
+### Deploy, scale and sleep at night with JRuby, [Joe Kutner](https://twitter.com/codefinger)
+
+#### Topics
+
+* *He's the writer of 'Deploying with JRuby'*
+* **Sysadmin is the worst job in the industry**
+* Deploying to a JVM is about making life for sysadmins easier
+* The current application infrastructure is cumbersome to scale
+* **Passenger or Unicorn are not solving the underlying problem they just ease the pain.**
+* It comes down to: Ruby Thread -> GIL -> Kernel Thread
+* **Steve Klabnik: 'Will Ruby ever get rid of GIL?', Matz: 'No' at RubyConf last year**
+* Deploying to a JVM solves the problem
+  * No thread managing anymore, only processes
+* *showing benchmarks from [TorqueBox](http://torquebox.org/)*
+* To know what needs to be changed in order to use JRuby use the [jruby-lint](https://github.com/jruby/jruby-lint) gem
+* Various JVM solutions
+  * [Warbler](http://kenai.com/projects/warbler/pages/Home)
+    * Advantages
+      * Creates warfile which then can be served by Tomcat/Jetty/WebLogic/JBoss
+      * Warfiles can be signed
+      * Deployment is fast
+      * Makes `bundle install` obsolete
+    * Disadvantages
+      * Need to generate a warfile for each change
+  * [Triniad](http://rubygems.org/gems/trinidad) (lightweight Ruby webserver)
+    * Runs RoR application in an embedded Apache Tomcat container
+    * Deployment still capistrano based
+    * Brings a couple of extensions like a job scheduler (Quartz), worker (Resque) with it
+  * [TorqueBox](http://torquebox.org)
+    * `torquebox run`, then `torquebox deploy`
+    * **The real power of torquebox comes from its subsystems**
+    * Includes clustering, load-balancing and high availability out-of-the-box
+  * A couple other solutions: Mizuno, Puma, torquebox-lite
+  * Cloud companies provide a wide range of solutions
+* Morale: *read his [book](http://pragprog.com/book/jkdepj/deploying-with-jruby)* and use `JRubyFrozenKutner` for a discount
+
+#### Techniques
+
+* White slides, lego images
+* nice introduction
+
+### Sleep!, [Alex Koppel]()
+
+#### Topics
+
+* 
+
+#### Techniques
+
+* 
+
