@@ -4,5 +4,28 @@ I'm usually trying to take notes during talks on conferences. Writing things dow
 
 This repository includes notes for conferences I'm attending and will probably grow over time.
 
+If you want to participate:
+
+* Fork the repository
+* Add your notes, preferably in Markdown
+* Send me a pull request
+
+The directory structure is: `conference_name/year/your_name.md`
+
 ## 2012
 * **Frozenrails**, Helsinki
+
+## Contributors
+
+* Mike Adolphs
+
+## License
+
+    /*
+    * ----------------------------------------------------------------------------
+    * "THE BEER-WARE LICENSE" (Revision 42):
+    * <mike@fooforge.com> wrote this file. As long as you retain this notice you
+    * can do whatever you want with this stuff. If we meet some day, and you think
+    * this stuff is worth it, you can buy me a beer in return Mike Adolphs
+    * ----------------------------------------------------------------------------
+    */
