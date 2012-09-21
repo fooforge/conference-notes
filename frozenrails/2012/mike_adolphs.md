@@ -337,25 +337,48 @@ Slides on [Slideshare](http://www.slideshare.net/jkutner/deploy-scale-and-sleep-
 
 * Simple slides, two columns
 
-### I know Kung Fu! (Neo4j on Rails without JRuby), [Rogelio J. Samour]()
+### I know Kung Fu! (Neo4j on Rails without JRuby), [Rogelio J. Samour](https://twitter.com/therubymug)
 
 #### Topics
 
-* asdf
+* Graph database explanation and differentiation to more popular database types
+* Showing the advantages of graph databases by example of relationships
+* Graph databases focus on the relationship of data, not the actual result set
+* *neat Matrix example to explain graphs*
+* Rails implementation
+  * For JRuby: `Neo4j.rb gem`
+  * Rubygems that wrap the Neo4J REST API:
+    * Neography
+    * Architect4r
+    * [Keymaker](https://github.com/therubymug/keymaker)
 
 #### Techniques
 
-* asdf
+* Simple, clean slides
+* Nice diagrams
 
-### Hungry Academy: Learning to be a developer in five months
+### Hungry Academy: Learning to be a developer in five months, [Melanie Gilman](https://twitter.com/melanieeeg) & [Mary Cutrali](https://twitter.com/marycutrali)
 
 #### Topics
 
-* asdf
+* Steps at [Hungry Academy](http://hungryacademy.com/)
+  * Week 1-2: Ruby introduction
+  * Week 3-4: Ruby systems (testing with rspec), Project: 'Sales engine'
+  * Week 5-7: Ruby essentials (discovered twitter-bootstrap)
+  * Week 8-9: Rails under load, Project: 'Son of Store Engine'
+  * Week 10-12: Providing and consuming APIs, Project: 'Feed Engine'
+  * Week 13-15: Coordinating services, Project: 'Chat'
+  * Week 16-18: ? *Lost focus, talk was too entertaining*
+  * Week 19-21: 'Donor Choose' aka VC funding simulation (?)
+* Almost all apps got hosted on heroku
+* Mary's [GitHub profile](https://github.com/maryelizbeth) and Melanie's [GitHub profile](https://github.com/mrgilman)
+* Melanie's [`omniauth-tripit gem`](https://rubygems.org/gems/omniauth-tripit)
+* All Hungry Academy projects from them available in this [gist](https://gist.github.com/3717847)
 
 #### Techniques
 
-* asdf
+* Fullscreen images, screenshots
+* Very entertaining
 
 ### Γυβψ community, [Danish Khan]()
 
