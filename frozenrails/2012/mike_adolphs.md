@@ -491,12 +491,28 @@ Code samples on [GitHub](https://github.com/kytrinyx/therapeutic-refactoring)
 
 #### Topics
 
-* asdf
+* Showing various programming paradigms
+  * Aspect-oriented programming
+    * facets gem
+    * Conecpt was conceived by [Karl Lieberherr](http://en.wikipedia.org/wiki/Karl_Lieberherr)
+  * Functional programming
+    * Focusing behavior of something
+    * Filter and operate on structures of data
+    * Add new behavior to a static set of data
+  * Structured programming
+    * Use language keywords to define the structure of your program
+*I'm sorry, but that's too much theory for me to keep up at the end of the day*
+* Wrap-up: When to use OOP
+  * Quickly add new data
+  * Encapsulate state
+  * Simplify conditionals
+  * *(?)*
+* 20% discount for [learn.thoughtbot.com](http://learn.thoughtbot.com/): FROZENRAILS
 
 #### Techniques
 
-* asdf
-
+* Lots of code, simple slides
+* Nice presentation style, live example **on Linux!**
 
 ### Keynote: Y-NOT, Adventures in functional programming, [Jim Weirich](http://twitter.com/jimweirich)
 
