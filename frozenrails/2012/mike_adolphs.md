@@ -1,5 +1,7 @@
 # Frozenrails
 
+Quotes or merged quotes are highlighted **strongly**, comments made by myself *italic*
+
 ## 2012-09-20
 
 ### *What is a developer?* - [Jeff Casimir](https://twitter.com/j3), [Jumpstart Lab](http://jumpstartlab.com/)
@@ -39,7 +41,7 @@
     * Can do any character delimited split
     * Can do any character delimited split and limit
 * **Let's write down the skills for being a great developer**
-* Sets to evaluate candidates: Jumpstart S12/Thoughtbot S0912
+* Sets to evaluate candidates: Jumpstart S12
 * Use those sets to
   * guide apprentices
   * categorize learning resources
@@ -250,7 +252,7 @@ Slides on [Slideshare](http://www.slideshare.net/jkutner/deploy-scale-and-sleep-
 * Deploying to a JVM is about making life for sysadmins easier
 * The current application infrastructure is cumbersome to scale
 * **Passenger or Unicorn are not solving the underlying problem they just ease the pain.**
-* It comes down to: Ruby Thread -> GIL -> Kernel Thread
+* It comes down to: Ruby Thread -> [GIL](http://en.wikipedia.org/wiki/Global_Interpreter_Lock) -> Kernel Thread
 * **Steve Klabnik: 'Will Ruby ever get rid of GIL?', Matz: 'No' at RubyConf last year**
 * Deploying to a JVM solves the problem
   * No thread managing anymore, only processes
@@ -287,6 +289,8 @@ Slides on [Slideshare](http://www.slideshare.net/jkutner/deploy-scale-and-sleep-
 *got replaces with a surprise talk by Jeff Casimir, but somehow missed the talk :(*
 
 ### Advanched caching in Rails, [Adam Hawkins](https://twitter.com/adman65)
+
+Slides available on [Speakerdeck](https://speakerdeck.com/u/twinturbo/p/advance)
 
 #### Topics
 
@@ -372,33 +376,64 @@ Slides on [Slideshare](http://www.slideshare.net/jkutner/deploy-scale-and-sleep-
   * Week 19-21: 'Donor Choose' aka VC funding simulation (?)
 * Almost all apps got hosted on heroku
 * Mary's [GitHub profile](https://github.com/maryelizbeth) and Melanie's [GitHub profile](https://github.com/mrgilman)
-* Melanie's [`omniauth-tripit gem`](https://rubygems.org/gems/omniauth-tripit)
-* All Hungry Academy projects from them available in this [gist](https://gist.github.com/3717847)
+* Melanie's [`omniauth-tripit`](https://rubygems.org/gems/omniauth-tripit) gem
+* All their Hungry Academy projects available in this [gist](https://gist.github.com/3717847)
 
 #### Techniques
 
 * Fullscreen images, screenshots
 * Very entertaining
 
-### Γυβψ community, [Danish Khan]()
+### Γυβψ community, [Danish Khan](https://github.com/danishkhan)
 
 #### Topics
 
-* asdf
+* Title change: **Don't be an a\*\*hole!**
+* Talking about Ruby/Rails community pros and cons
+* Politeness, respectfulness and being kind is the currency of Open Source
+* Get rid of things like [http://rubydramas.com/](http://rubydramas.com/), spend your energy in a more positive way
+* If you're a project maintainer **maintain** your project. If you're not able to, don't be a maintainer and find another
+* Spend efforts also on documentation, provide examples
+* Act as a mentor if possible
+* * **The one exclusive sign of thorough knowledge is the power of teaching** - Aristoteles
+* **Respect each other, be nice to people**
+* **Always have a README and a CONTRIBUTING file!**
+* Make use of GitHub issue labels to define the needed skill level to fix the issue
+* Don't just complain, send a pull request
+* **Don't fight fire with fire!**
 
 #### Techniques
 
-* asdf
+* Fullscreen images, small Flickr badge with the user's name
+  * *awesome way to give credit to flickr users!*
+* Nyan-Octocat mutant!
 
-### How to be a more productive developer, [Jeremy Walker]()
+### How to be a more productive developer, [Jeremy Walker](https://twitter.com/iHiD)
 
 #### Topics
 
-* asdf
+* **Developers tend to share traits**
+* **Let's talk about me!** - *funny guy*
+* Jeremy uses [gitshots](http://coderwall.com/p/xlatfq) and isn't proud of his photos at 4:30am
+* **Make sure that you don't work too hard**
+* **Creativity is a crucially important part of the job**
+* "What gets me out of bed", Jeremy asks
+  * Money? **Nope**
+  * Career progression? **Nope**
+  * Writing software? **Yes**
+  * Learn something? **Yes**
+  * Achieving something? **Yes**
+  * Making the world better? **Yes**
+* **Being good under pressure doesn not mean being under pressure is good**
+* Highest quality productivity tip: **Turn off the Internet**
+* What to do during your tests run
+  * Get shit done. Over your entire career you might spend 2 full years of waiting for test results
+* **Live a healthy life**
 
 #### Techniques
 
-* asdf
+* Single line, mostly quotes
+* Funny slides, this guy's hilarious
 
 ### Rescuing Resque, [Terence Lee]()
 
