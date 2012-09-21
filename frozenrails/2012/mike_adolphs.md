@@ -284,11 +284,138 @@ Slides on [Slideshare](http://www.slideshare.net/jkutner/deploy-scale-and-sleep-
 
 ### Sleep!, [Alex Koppel]()
 
+*got replaces with a surprise talk by Jeff Casimir, but somehow missed the talk :(*
+
+### Advanched caching in Rails, [Adam Hawkins](https://twitter.com/adman65)
+
 #### Topics
 
-* 
+* Based on experience while building an ERP at Radium
+* Showing various Rack methods and their actions on the HTTP header
+* Presenting various methods of caching
+  * HTTP caching in Rails
+    * Should be used pretty much everywhere
+  * Action caching `caches_action`
+  * Fragment caching
+    * Should be used for HTML
+  * Rails.cache
+    * Should be used for arbitrary computations
+* Cache expiration techniques
+  * Dependency graphs
+    * **The most complex thing that could possibly work**
+  * Manual expiration
+    * **Waste of time, don't do it**
+  * Auto-expiring keys
+    * **The eastiest thing that could possibly work**
+  * **Russian Doll Caching**
+    * **Cache one thing that caches another**
+    * Comes with Rails 4
+  * JSON APIs with ActiveModel::Serializers
+* Wrap-up
+  * Use HTTP caching everywhere
+  * Use auto-expiring keys everywhere
+  * Don't use sweepers, page or action caching
+  * Beware of things that happen outside the HTTP Request
 
 #### Techniques
 
-* 
+* Simple slides, but pretty
+* Short comic video, Stallman analogy
+* nice pace
 
+### Sponsored talk by Deveo, [Jerry Jaeppinen](http://www.deveo.com/)
+
+#### Topics
+
+* Talking about best practices and lessons learned during development within the last year
+* *no sales show, nice!*
+* Deveo has been built with Rails and Sinatra
+* Use JS for frontend
+* *Some neat javascript foo for changing the URL, woot!*
+
+#### Techniques
+
+* Simple slides, two columns
+
+### I know Kung Fu! (Neo4j on Rails without JRuby), [Rogelio J. Samour]()
+
+#### Topics
+
+* asdf
+
+#### Techniques
+
+* asdf
+
+### Hungry Academy: Learning to be a developer in five months
+
+#### Topics
+
+* asdf
+
+#### Techniques
+
+* asdf
+
+### Γυβψ community, [Danish Khan]()
+
+#### Topics
+
+* asdf
+
+#### Techniques
+
+* asdf
+
+### How to be a more productive developer, [Jeremy Walker]()
+
+#### Topics
+
+* asdf
+
+#### Techniques
+
+* asdf
+
+### Rescuing Resque, [Terence Lee]()
+
+#### Topics
+
+* asdf
+
+#### Techniques
+
+* asdf
+
+### Therapeutic Refactoring, [Katrina Owen]()
+
+#### Topics
+
+* asdf
+
+#### Techniques
+
+* asdf
+
+### When not to use object-oriented techniques, [Mike Burns]()
+
+#### Topics
+
+* asdf
+
+#### Techniques
+
+* asdf
+
+
+### Keynote: Y-NOT, Adventures in functional programming, [Jim Weirich]()
+
+#### Topics
+
+* asdf
+
+#### Techniques
+
+* asdf
+
+EOF
