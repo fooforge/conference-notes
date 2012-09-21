@@ -518,10 +518,12 @@ Code samples on [GitHub](https://github.com/kytrinyx/therapeutic-refactoring)
 
 #### Topics
 
-* asdf
+* Talk's highly technical, extremely pointless and contains the worst ruby code ever
+* But it'll be fun, he says. *I've seen enough Weirich to see where this is going…*
+* *OMG.*
 
 #### Techniques
 
-* asdf
+* Emacs.
 
 EOF
