@@ -435,7 +435,59 @@ Slides available on [Speakerdeck](https://speakerdeck.com/u/twinturbo/p/advance)
 * Single line, mostly quotes
 * Funny slides, this guy's hilarious
 
-### Rescuing Resque, [Terence Lee]()
+### Rescuing Resque, [Terence Lee](https://twitter.com/hone02)
+
+#### Topics
+
+* What's Resque
+  * Basically a job queue library
+* Resque 1.x only gets bugfixes
+* Resque 2 is being developed almost fulltime
+  * Contributors very welcome
+* *Presentation contained a lot of code examples, therefore hard to describe.*
+
+#### Techniques
+
+* A lot of code, well presented
+* Finally source code covered in colors
+
+### Therapeutic Refactoring, [Katrina Owen](https://twitter.com/kytrinyx)
+
+And the [full talk](http://confreaks.com/videos/1071-cascadiaruby2012-therapeutic-refactoring)  (on the big screen)  
+Code samples on [GitHub](https://github.com/kytrinyx/therapeutic-refactoring)
+
+#### Topics
+
+* *I've seen this talk already at Nordic Ruby 2012 and I enjoyed it a lot*
+* **Guilt driven development**
+* **More refactoring is an optimization.**
+* **Refactoring is not rehacktoring!**
+* Katrina shows by lots of lines of well structured code how to refactor a non documented, quite complex method 
+* *Best see it for yourself when you get the chance*
+* **Replace method with method object**
+* Don't name methods by how things get done
+* For a start copy existing code into new methods and scan for local variables
+* **First quarantine the method, than extract stuff and/or delete it**
+* Codejunk Top 10
+  * Bad comments
+  * Trailing whitespace
+  * Commented-out code
+  * Needless parantheses
+  * Powerless code
+  * Unnecessary `require`'s
+  * The booleanest boolean
+  * Too much hard work
+  * Duplicated tests
+  * Combine all the codejunk
+* **Happiness leads to good design**
+
+#### Techniques
+
+* Clean slides, mostly white
+* Lots of code, well structured and highlighted
+* Internet meme pictures, yay!
+
+### When not to use object-oriented techniques, [Mike Burns](https://twitter.com/mikeburns)
 
 #### Topics
 
@@ -445,28 +497,8 @@ Slides available on [Speakerdeck](https://speakerdeck.com/u/twinturbo/p/advance)
 
 * asdf
 
-### Therapeutic Refactoring, [Katrina Owen]()
 
-#### Topics
-
-* asdf
-
-#### Techniques
-
-* asdf
-
-### When not to use object-oriented techniques, [Mike Burns]()
-
-#### Topics
-
-* asdf
-
-#### Techniques
-
-* asdf
-
-
-### Keynote: Y-NOT, Adventures in functional programming, [Jim Weirich]()
+### Keynote: Y-NOT, Adventures in functional programming, [Jim Weirich](http://twitter.com/jimweirich)
 
 #### Topics
 
