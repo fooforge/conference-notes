@@ -14,6 +14,7 @@ The directory structure is: `conference_name/year/your_name.md`
 
 ## 2012
 * **Frozenrails**, Helsinki
+* **OSMC**, Nuremberg
 
 ## Contributors
 
